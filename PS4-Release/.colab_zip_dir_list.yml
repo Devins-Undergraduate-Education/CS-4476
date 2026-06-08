@@ -1,0 +1,12 @@
+required_directories:
+  - proj4_code/segmentation
+  - proj4_code/proj4_unit_tests/segmentation
+  - Camvid
+  - camvid_dataset_lists
+required_files:
+  - pyproject.toml
+  - camvid_download_dataset.sh
+optional_directories:
+  - additional_data
+optional_files:
+  - README.txt

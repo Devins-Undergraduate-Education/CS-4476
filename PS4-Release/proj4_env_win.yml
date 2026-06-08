@@ -1,0 +1,26 @@
+name: cs4476_proj4
+channels:
+- defaults
+- pytorch
+- conda-forge
+- sepandhaghighi
+dependencies:
+- jupyter
+- matplotlib
+- pip
+- pytest
+- python
+- pytorch=2.2.2
+- torchvision=0.17.2
+- pyyaml
+- scikit-learn
+- scipy
+- opencv
+- pycm
+- cudatoolkit=10.2
+- mypy
+- numpy=1.26.4
+- Pillow
+- pandas
+- colour
+- imageio

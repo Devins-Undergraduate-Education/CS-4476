@@ -1,0 +1,62 @@
+# name: cs4476_proj4
+# channels:
+# - defaults
+# - pytorch
+# - conda-forge
+# - sepandhaghighi
+# dependencies:
+# - jupyter
+# - matplotlib
+# - pip
+# - Pillow=6.2
+# - pytest
+# - python=3.8
+# - pytorch-cpu
+# - torchvision-cpu=0.2
+# - pyyaml
+# - scikit-learn
+# - scipy
+# - opencv
+# - pycm=3.4
+# - mypy
+# - numpy
+# - Pillow
+# - pandas
+# - colour
+# - imageio
+
+name: cs4476_proj4
+channels:
+  - conda-forge  # Highest priority for consistency
+  - pytorch      # For PyTorch and related packages
+  - defaults     # Lower priority
+  
+dependencies:
+  # --- Core ---
+  - python
+  - pip
+
+  # --- PyTorch (CPU-only) ---
+  - pytorch
+  - torchvision
+  - cpuonly
+
+  # --- Data Science & ML ---
+  - jupyter
+  - matplotlib
+  - numpy
+  - pandas
+  - scikit-learn
+  - scipy
+  
+  # --- Image & Vision ---
+  - pillow
+  - opencv
+  - imageio
+  - pycm
+  - colour-science
+  
+  # --- Utilities & Testing ---
+  - pyyaml
+  - pytest
+  - mypy
